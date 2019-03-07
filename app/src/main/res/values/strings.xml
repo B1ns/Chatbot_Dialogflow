@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Chatbot_Dialogflow</string>
+    <string name="in">메시지 입력</string>
+</resources>

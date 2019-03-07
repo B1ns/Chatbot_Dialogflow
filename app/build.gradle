@@ -1,0 +1,50 @@
+apply plugin: 'com.android.application'
+
+apply plugin: 'kotlin-android'
+
+apply plugin: 'kotlin-android-extensions'
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "com.example.chatbot_dialogflow"
+        minSdkVersion 21
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'androidx.appcompat:appcompat:1.1.0-alpha02'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.2'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test:runner:1.1.2-alpha01'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.2-alpha01'
+    //  Dialogflow SDK
+    implementation 'ai.api:libai:1.6.12'
+    implementation 'ai.api:sdk:2.0.7'
+    implementation 'ai.api:libai:1.6.12'
+    implementation 'commons-io:commons-io:20030203.000550'
+    // Java V2
+    implementation 'com.google.cloud:google-cloud-dialogflow:0.67.0-alpha'
+    // for Remote Pro Call to avoid " NO functional channel service provider found" error
+    implementation 'io.grpc:grpc-okhttp:1.19.0'
+    implementation 'com.google.android.material:material:1.1.0-alpha04'
+    // recyclerView
+    implementation 'androidx.recyclerview:recyclerview:1.0.0'
+    // gson
+    implementation 'com.google.code.gson:gson:2.8.5'
+    //firebase
+    implementation 'com.google.firebase:firebase-core:16.0.7'
+}
+apply plugin: 'com.google.gms.google-services'

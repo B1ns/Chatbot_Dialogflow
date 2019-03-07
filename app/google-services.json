@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "437671957479",
+    "firebase_url": "https://chatbot-dialogflow-a78f6.firebaseio.com",
+    "project_id": "chatbot-dialogflow-a78f6",
+    "storage_bucket": "chatbot-dialogflow-a78f6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:437671957479:android:c66dd37a0803d677",
+        "android_client_info": {
+          "package_name": "com.example.chatbot_dialogflow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "437671957479-er9ca5rrj98vfd6q6ih7vh7rassp2dqd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.chatbot_dialogflow",
+            "certificate_hash": "ce4b894e933d2bc57395f77e550b0cf7ea36c084"
+          }
+        },
+        {
+          "client_id": "437671957479-uign1djh7cjer0jfk02q614jij926ma2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjnCRmyinAMPcUe_v2GUpVGri4FwK1WCY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "437671957479-uign1djh7cjer0jfk02q614jij926ma2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
